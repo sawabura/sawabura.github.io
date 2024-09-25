@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
 }
 
 /* @keyframes gradientBG {
@@ -126,6 +127,7 @@ body {
 }
 
 
+
 /* @keyframes flash-border {
     0% {
         border-color: #a1a2a3; Original blue border
@@ -204,6 +206,45 @@ body {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
     filter: blur();
 }
+
+
+/* Container for the moon */
+.moon-container {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    top: 10%;
+    left: 10%;
+
+    
+}
+
+/* Styling for the moon */
+.moon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #fff, #c4c4c4);
+    position: relative;
+    animation: moonMove 10s infinite ease-in-out;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+}
+
+/* Moon orbit animation */
+@keyframes moonMove {
+    0% {
+        transform: translateX(-100px) translateY(0);
+    }
+    50% {
+        transform: translateX(10px) translateY(-50px);
+    }
+    100% {
+        transform: translateX(-100px) translateY(0);
+    }
+}
+
+
 
 
 header {
