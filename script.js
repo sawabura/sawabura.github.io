@@ -1,4 +1,3 @@
-
 // Rain effect 
 function createRain() {
     const rainContainer = document.querySelector('.rain');
