@@ -14,11 +14,21 @@ createRain();
 // Flash effect for thunderbolt
 function thunderFlash() {
     const flash = document.querySelector('.flash');
+    const thunderSound = document.getElementById('thunder-sound');
+
     setInterval(() => {
         flash.style.animation = 'flash 0.2s ease';
-        setTimeout(() => flash.style.animation = '', 200);
-    }, Math.random() * 5000 + 3000);
+        
+        // Play the sound when the flash starts
+        thunderSound.currentTime = 0.1;  // Reset to the beginning
+        thunderSound.play();
+
+        setTimeout(() => {
+            flash.style.animation = '';
+        }, 200);  // Flash duration is 200ms
+    }, Math.random() * 5000 + 3000);  // Randomize flash timing
 }
+
 thunderFlash();
 
 // Chaotic lightning
@@ -57,4 +67,8 @@ function generateLightning() {
 // Start generating lightning on page load
 window.onload = function() {
     generateLightning();
+    const rainSound = document.getElementById('rain-sound');
+    rainSound.volume = 0.5;  // Set volume to 20%
+
 };
+
