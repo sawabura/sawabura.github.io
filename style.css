@@ -138,7 +138,7 @@ body {
     }
 }
  */
-.container {
+/* .container {
     max-width: 900px;
     background-color: white;
     padding: 40px;
@@ -147,36 +147,64 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     z-index: 100;
-    animation: flash-border 2s infinite; /* Flash every 1 second */
+    animation: flash-border 2s infinite;
+}
+ */
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
 }
 
-.container1 {
-    display: flex;
-    justify-content: flex-start; /* Aligns to the left */
-    height: 100vh;
-    align-items: center; /* Vertically centers */
+/* Container Styles */
+.container {
+    max-width: 800px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 22px;
+    position: relative;
+    z-index: 100;
+    border: 8px solid transparent; /* Transparent border to show gradient */
+    background-image: linear-gradient(white, white), 
+                      conic-gradient(from var(--angle), #ff007a, #ffae00, #00fffb, #ff007a);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    animation: rotateGradient 0.9s infinite linear; /* Rotate the conic-gradient */
 }
 
-.scene {
-    perspective: 800px; /* Defines the perspective for the 3D effect */
+/* Pseudo-element for blur effect */
+.container::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: inherit;
+    background-image: conic-gradient(from var(--angle), #ffffff, #ffffff, #ffffff, #ffffff);
+    filter: blur(1.5rem); /* Apply blur effect here */
+    opacity: 0.5;
+    z-index: -2;
 }
 
-.image-3d {
-    width: 400px;
-    height: auto;
-    transform: rotateY(-20deg); /* Rotates the image for the 3D effect */
-    transition: transform 0.5s ease;
+/* Keyframes for the Gradient Rotation Animation */
+@keyframes rotateGradient {
+    from {
+        --angle: 0deg;
+    }
+    to {
+        --angle: 360deg;
+    }
 }
 
-.image-3d:hover {
-    transform: rotateY(0deg); /* On hover, it returns to its normal view */
-}
-
-
+/* Hover Effect */
 .container:hover {
     transform: scale(1.02);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    filter: blur();
 }
+
 
 header {
     text-align: center;
