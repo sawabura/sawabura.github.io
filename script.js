@@ -1,20 +1,50 @@
 // Rain effect 
 function createRain() {
     const rainContainer = document.querySelector('.rain');
+
+    // Create 100 raindrops
     for (let i = 0; i < 100; i++) {
         const raindrop = document.createElement('div');
         raindrop.classList.add('raindrop');
+        
+        // Randomize position and duration
         raindrop.style.left = `${Math.random() * 100}%`;
         raindrop.style.animationDuration = `${0.5 + Math.random()}s`;
+        
         rainContainer.appendChild(raindrop);
+
+        // Event listener for raindrop animation end
+        raindrop.addEventListener('animationend', () => {
+            createSplash(raindrop.style.left);
+        });
     }
 }
+
+function createSplash(leftPosition) {
+    const rainContainer = document.querySelector('.rain');
+    
+    const splash = document.createElement('div');
+    splash.classList.add('splash');
+    splash.style.left = leftPosition;
+    splash.style.bottom = '0px';  // Appear at the bottom of the screen
+    
+    rainContainer.appendChild(splash);
+
+    // Remove the splash after animation ends
+    setTimeout(() => {
+        splash.remove();
+    }, 300);  // Duration of the splash animation
+}
+
+// Initialize the rain effect
 createRain();
+
 
 // Flash effect for thunderbolt
 function thunderFlash() {
     const flash = document.querySelector('.flash');
     const thunderSound = document.getElementById('thunder-sound');
+    thunderSound.volume = 0.1;  // Set volume to 10%
 
     setInterval(() => {
         flash.style.animation = 'flash 0.2s ease';
@@ -66,9 +96,10 @@ function generateLightning() {
 
 // Start generating lightning on page load
 window.onload = function() {
+    var rainSound = document.getElementById('rain-sound');
+    rainSound.play();
+    rainSound.volume = 0.3;  // Set volume to 20%
     generateLightning();
-    const rainSound = document.getElementById('rain-sound');
-    rainSound.volume = 0.5;  // Set volume to 20%
 
 };
 
