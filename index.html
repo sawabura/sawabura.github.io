@@ -8,10 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Toggle button to show/hide the sidebar -->
+    <button id="nav-toggle-btn" class="nav-toggle-btn" style="display: none;">☰ Menu</button>
+
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+
+
     <audio id="rain-sound" src="./sounds/rain-sound.mp3" preload="auto" autoplay loop></audio>
     <div class="moon-container">
         <div class="moon"></div>
     </div>
+    
+    
     
     <div class="rain"></div>
 
@@ -24,7 +39,7 @@
     </div>
 
     <div class="flash"></div>
-    <audio id="thunder-sound" src="./sounds/thunder-sound.mp3" preload="auto"></audio>
+    <audio id="thunder-sound" preload="auto"></audio>
  
     <div class="container">
         <header>
