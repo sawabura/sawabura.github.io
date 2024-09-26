@@ -17,7 +17,6 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    
 }
 
 /* Sidebar styles */
@@ -121,8 +120,8 @@ body {
 /* Splash effect */
 .splash {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 50%;
     opacity: 0;

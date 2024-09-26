@@ -13,8 +13,8 @@ function createRain() {
         
         rainContainer.appendChild(raindrop);
 
-        // Event listener for raindrop animation end
-        raindrop.addEventListener('animationend', () => {
+        // Event listener for raindrop animation end 
+        raindrop.addEventListener('animationiteration', () => {
             createSplash(raindrop.style.left);
         });
     }
