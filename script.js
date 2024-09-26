@@ -124,10 +124,10 @@ window.onload = function() {
 
 // Show the menu button with a slide-in effect after 5 seconds(TEST NAVBAR)
 setTimeout(() => {
-    const navToggleBtn = document.getElementById('nav-toggle-btn');
-    navToggleBtn.style.display = 'block'; // Make the button visible
+    const navToggleBtn = document.getElementById('bike-container');
+    navToggleBtn.style.display = 'flex'; // Make the button visible
     navToggleBtn.classList.add('slide-in'); // Trigger the slide-in animation
-}, 5000); // Delay of 5 seconds
+}, 2000); // Delay of 2 seconds
 
 // Toggle the sidebar visibility
 document.getElementById('nav-toggle-btn').addEventListener('click', function () {

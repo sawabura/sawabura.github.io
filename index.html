@@ -9,7 +9,10 @@
 </head>
 <body>
     <!-- Toggle button to show/hide the sidebar -->
-    <button id="nav-toggle-btn" class="nav-toggle-btn" style="display: none;">☰ Menu</button>
+    <div id="bike-container" class="bike-container" style="display: none;">
+        <img src="./images/bike.png" alt="Bike" class="bike-img">
+        <button id="nav-toggle-btn" class="nav-toggle-btn">🍔 Menu</button>
+    </div>
 
     <!-- Sidebar Navigation -->
     <div id="sidebar" class="sidebar">
@@ -18,7 +21,10 @@
         <a href="#">Services</a>
         <a href="#">Contact</a>
     </div>
-
+    <div class="music-buttons">
+        <button onclick="document.getElementById('rain-sound').play()">Rain ON</button>
+        <button onclick="document.getElementById('rain-sound').pause()">Rain OFF</button>
+    </div>
 
 
     <audio id="rain-sound" src="./sounds/rain-sound.mp3" preload="auto" autoplay loop></audio>
@@ -51,8 +57,6 @@
             <div class="button-container">
                 <button onclick="window.location.href='https://drive.google.com/file/d/19I6cnyKGWquV7ztHIPw4PErLabVCFkPc/view?usp=drive_link'">Download CV</button>
                 <button onclick="window.location.href='mailto:victormacgrey@gmail.com'">Contact Me</button>
-                <button onclick="document.getElementById('rain-sound').play()">Play Rain Sound</button>
-                <button onclick="document.getElementById('rain-sound').pause()">Pause Rain Sound</button>
             </div>
         </section>
         <footer>
