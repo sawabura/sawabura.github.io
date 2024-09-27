@@ -22,14 +22,16 @@ body {
 /* Sidebar styles */
 .sidebar {
     max-height: 50%;
-    width: 0;
+    width: 0%;
     position: fixed;
     top: 5%;
     left: 1%;
     background-color: transparent; /* Transparent background */
     overflow-x: hidden;
-    transition: 0.9s;
+    overflow-y: hidden;
+    transition: 0.4s;
     padding-top: 60px;
+    padding-left: 10px;
     z-index: 1000;
 }
 
@@ -40,12 +42,13 @@ body {
     font-size: 30px;
     color: #818181;
     display: block;
-    transition: 0.3s;
-    filter: blur(0.05rem); 
+    transition: transform 0.3s;
+    filter: blur(0.02rem); 
 }
 
 .sidebar a:hover {
     color: #f1f1f1;
+    transform: scale(1.02);
 }
 
 /* Bike Container */
@@ -271,6 +274,7 @@ body {
 
 /* Container Styles */
 .container {
+    display: none;
     max-width: 800px;
     padding: 40px;
     background-color: white;
@@ -315,9 +319,32 @@ body {
 
 /* Hover Effect */
 .container:hover {
-    transform: scale(1.02);
+    transform: scale(1.12);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-    filter: blur();
+    filter: blur(0);
+}
+
+/* Show animation for the pop-up */
+.show-popup {
+    display: block; /* Display the container */
+    /* filter: blur(0.5rem); */
+    animation: popIn 0.6s forwards; /* Trigger the enhanced pop-up effect */
+}
+
+/* Keyframes for smooth appearance */
+@keyframes popIn {
+    0% {
+        transform: scale(0.8); /* Start slightly scaled down and off center */
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.05); /* Slight overshoot to create a bounce effect */
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1); /* Settle in the final position */
+        opacity: 1;
+    }
 }
 
 

@@ -141,3 +141,162 @@ document.getElementById('nav-toggle-btn').addEventListener('click', function () 
     }
 });
 
+// Ensure the script runs after the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', () => {
+    // Select the container directly
+    const popupContainer = document.querySelector('.container');
+
+    // Content for different sections
+    const contentMap = {
+        home: `
+
+
+        `,
+        about: `
+            <header>
+                <h1><a href="">Your Ad Goes Here:)</a></h1>
+                <p>I'm a Pluviophile person</p>
+            </header>
+            <section>
+                <h2>Download & Contact</h2>
+                <div class="button-container">
+                    <button onclick="window.location.href='https://drive.google.com/file/d/19I6cnyKGWquV7ztHIPw4PErLabVCFkPc/view?usp=drive_link'">Download CV</button>
+                    <button onclick="window.location.href='mailto:victormacgrey@gmail.com'">Contact Me</button>
+                </div>
+            </section>
+            <footer>
+                <p>© 2024 Viktor's CV. All Rights Reserved.</p>
+            </footer>
+        `,
+        experience: `
+            <header>
+                <h1>Our Services</h1>
+                <p>Programming Languag
+                </p>
+            </header>
+            <div class="">
+                <h2>PROFESSIONAL EXPERIENCE </h2>
+                <ul>
+                    <li>
+                        <h3>ASTRONAUT</h3>
+                        <ul>
+                            <h4 style="font-weight: 200; font-family: Gill Sans, sans-serif;">2018 – 2019</h4>
+                            <li>Used to be working on Mars and Jupiter</li>
+                            <li>Was dealing with plumbing related staff</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>ASSISTANT OF US PRESIDENT</h3>
+                        <ul>
+                            <h4 style="font-weight: 200; font-family: Gill Sans, sans-serif;" draggable="true">2019 – 2022</h4>
+                            <li>Managing office operations inclusive of setting up office and facilities</li>
+                            <li>Managing the flow of paperwork to and from </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>MANAGER OF THE WORLD</h3>
+                        <ul>
+                            <h4 style="font-weight: 200; font-family: Gill Sans, sans-serif;">2022 – 2024</h4>
+                            <li>Managing office operations inclusive of setting up office and facilities</li>
+                            <li>Managing the flow of paperwork to and from </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        `,
+        languages: `
+        <header>
+            <h1>Our Services</h1>
+        </header>
+        <div class="">
+            <h2>FOREIGN LANGUAGES</h2>
+            <ol>
+                <li><pre style="font-weight: 200; font-family: Gill Sans, sans-serif;">Greek      🔳🔳🔳🔳⬜</pre></li>
+                <li><pre style="font-weight: 200; font-family: Gill Sans, sans-serif;">English    🔳🔳🔳🔳⬜</pre></li>
+                <li><pre style="font-weight: 200; font-family: Gill Sans, sans-serif;">Russian   🔳🔳🔳🔳🔳</pre></li>
+                <li><pre style="font-weight: 200; font-family: Gill Sans, sans-serif;">Ukrainian 🔳🔳🔳🔳🔳</pre></li>
+            </ol>
+        </div>
+        `,
+        software_skills: `
+        <header>
+            <h1>Our Services</h1>
+            <p>Programming Languag
+            </p>
+        </header>
+        `,
+        special_skills: `
+            <header>
+                <h1>Contact Us</h1>
+                <p>Contact details and information.</p>
+            </header>
+            <div class="">
+                <h2>SPECIAL SKILLS</h2>
+                <h4>Can drive a spaceship</h4>
+                <p>Ability to cast a spell without its pronouncing(like fireball and frostwall)
+                </p>
+            </div>
+        `,
+        education: `
+        <header>
+            <h1>Contact Us</h1>
+            <p>Contact details and information.</p>
+        </header>
+        <div class="">
+            <h2>EDUCATION</h2>
+            <dl>
+                <h4>2010-2015</h4>
+                <dt>Donbass State Technical University, UA</dt>
+                <dd>Specialisation:Economy of an enterprise</dd>
+            </dl>
+            <dl>
+                <h4>2016-2021</h4>
+                <dt>Belgorod State Technological University named after V.G.Shoukhov, RU</dt>
+                <dd>Specialisation:Economics and Management</dd>
+            </dl>
+        </div>
+        `
+    };
+
+    // Attach click event to each navigation link
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevent default behavior
+
+            // Get the target section from the clicked link
+            const target = e.target.getAttribute('data-target');
+
+            // Hide the container for "home" and empty it
+            if (target === 'home') {
+                popupContainer.classList.remove('show-popup');
+                popupContainer.style.display = 'none';
+                popupContainer.innerHTML = ''; // Optional: Clear content if needed
+            } else if (contentMap[target]) {
+                // Reset animation by temporarily removing the class
+                popupContainer.classList.remove('show-popup');
+
+                // Update the container with the corresponding content
+                popupContainer.innerHTML = contentMap[target];
+
+                // Use setTimeout to ensure the class removal is registered before re-adding
+                setTimeout(() => {
+                    popupContainer.style.display = 'block';
+                    popupContainer.classList.add('show-popup');
+                }, 5); // Short delay to allow the class to be re-added and trigger animation
+            }
+        });
+    });
+
+    // Close the pop-up by clicking outside the container
+    document.addEventListener('click', (e) => {
+        // Check if the click is outside of the container
+        if (!popupContainer.contains(e.target) && popupContainer.classList.contains('show-popup')) {
+            popupContainer.classList.remove('show-popup'); // Hide pop-up
+            popupContainer.style.display = 'none';
+            popupContainer.innerHTML = '';
+        }
+    });
+});
