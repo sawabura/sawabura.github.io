@@ -354,31 +354,30 @@ body {
 
 /* Hover Effect */
 .container:hover {
-    transform: scale(1.12);
+    transform: scale(1.09);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-    filter: blur(0);
+    filter: blur();
 }
 
 /* Show animation for the pop-up */
 .show-popup {
     display: block; /* Display the container */
     /* filter: blur(0.5rem); */
-    animation: popIn 0.6s forwards; /* Trigger the enhanced pop-up effect */
-    animation: rotateGradient 0.9s infinite linear; /* Rotate the conic-gradient */
+    animation: popIn 0.6s forwards, rotateGradient 0.9s infinite linear; /* Trigger the enhanced pop-up effect */
 }
 
 
 /* Keyframes for smooth appearance */
 @keyframes popIn {
     0% {
-        transform: scale(0.8); /* Start slightly scaled down and off center */
+        transform: scale(0.5); /* Start slightly scaled down and off center */
         opacity: 0;
     }
     50% {
-        transform: scale(1.05); /* Slight overshoot to create a bounce effect */
+        transform: scale(1.15); /* Slight overshoot to create a bounce effect */
         opacity: 1;
     }
-    100% {
+    90% {
         transform: scale(1); /* Settle in the final position */
         opacity: 1;
     }
