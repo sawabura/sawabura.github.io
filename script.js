@@ -300,3 +300,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+//add a class that hides the .typewriter element
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        document.querySelector('.typewriter').style.display = 'none';
+    }, 7000); // Hides the typewriter after 5 seconds
+});
