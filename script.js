@@ -170,91 +170,152 @@ document.addEventListener('DOMContentLoaded', () => {
         `,
         experience: `
             <header>
-                <h1>Our Services</h1>
-                <p>Programming Languag
-                </p>
+
             </header>
             <div class="">
                 <h2>PROFESSIONAL EXPERIENCE </h2>
                 <ul>
                     <li>
-                        <h3>ASTRONAUT</h3>
+                        <h3>OFFICE MANAGER</h3>
+                        <h4>Alchevsk Metallurgical Complex, UA</h4>
+                        <h4>2018 – 2019</h4>
                         <ul>
-                            <h4 style="font-weight: 200; font-family: Gill Sans, sans-serif;">2018 – 2019</h4>
-                            <li>Used to be working on Mars and Jupiter</li>
-                            <li>Was dealing with plumbing related staff</li>
+                            <li>Managing office operations inclusive of setting up office and facilities</li>
+                            <li>Managing the flow of paperwork to and from the department, ensuring accuracy, completion, and adherence to deadlines.</li>
+                            <li>Collaborating with management to assess office locations, plan requirements, and coordinate maintenance activities</li>
+                            <li>Working closely with vendors to maintain and ensure the operational efficiency of office facilities, equipment, and services.</li>
+                            <li>Providing comprehensive administrative support to management, including calendar management, meeting coordination, and documentation.</li>
+                            <li>Systematically organizing files and documents to streamline retrieval and storage processes.</li>
+                            <li>Assisting in the preparation and formatting of various documents, presentations, and reports.</li>
+                            <li>Coordinating with the Finance department to ensure the timely and accurate processing of invoice payments.</li>
                         </ul>
+                        <h2></h2>
+
                     </li>
 
                     <li>
-                        <h3>ASSISTANT OF US PRESIDENT</h3>
+                        <h3>FINANCE ASSISTANT</h3>
+                        Alchevsk Metallurgical Complex, UA
+                        <h4>2019 – 2021</h4>
                         <ul>
-                            <h4 style="font-weight: 200; font-family: Gill Sans, sans-serif;" draggable="true">2019 – 2022</h4>
-                            <li>Managing office operations inclusive of setting up office and facilities</li>
-                            <li>Managing the flow of paperwork to and from </li>
+                            <li>Daily invoice scanning, entry and processing</li>
+                            <li>Matching, batching and coding invoices</li>
+                            <li>Raising, matching and recording purchase orders</li>
+                            <li>Maintaining new and existing supplier/staff accounts</li>
+                            <li>Processing staff expenses in line with company policy</li>
+                            <li>Preparing weekly payment runs</li>
+                            <li>Follow up on supplier invoice/staff expense queries accordingly</li>
+                            <li>Ensuring invoices are paid in a timely manner, based on due dates and payment terms</li>
+                            <li>Preparing manual UA/RU payments and liaising with treasury assistant</li>
+                            <li>Reconciliation of supplier statements and accounts</li>
+                            <li>Posting payments on a daily basis</li>
+                            <li>Perform month end AP reconciliations to the Trial Balance</li>
                         </ul>
+                        <h2></h2>
                     </li>
 
                     <li>
-                        <h3>MANAGER OF THE WORLD</h3>
+                        <h3>JUNIOR ANALYST</h3>
+                        <h4>FOREX. PL, CY</h4>
+                        <h4>2021 – 2022</h4>
                         <ul>
-                            <h4 style="font-weight: 200; font-family: Gill Sans, sans-serif;">2022 – 2024</h4>
-                            <li>Managing office operations inclusive of setting up office and facilities</li>
-                            <li>Managing the flow of paperwork to and from </li>
+                            <li>Assisting in monitoring forex trades and pricing for institutional and retail clients, ensuring accuracy and compliance with company guidelines.</li>
+                            <li>Generating complex reports for senior management, focusing on liquidity provider performance, client trade behavior, and pricing accuracy.</li>
+                            <li>Supporting senior dealers by running daily reports on market liquidity, trade execution, and pricing discrepancies.</li>
+                            <li>Utilizing Excel to generate pivot tables, run data analysis, and prepare reports on market performance.</li>
+                            <li>Gaining experience with the MT4 platform, resolving technical issues and helping optimize trading conditions for the client base.</li>
+                            <li>Collaborating with senior dealers and the investment team to provide regular updates on major currency trends and market conditions.</li>
                         </ul>
+                        <h2></h2>
+                    </li>
+                    <li>
+                        <h3>NIGHT AUDITOR</h3>
+                        <h4>Lordos Beach Hotel & Spa, CY</h4>
+                        <h4>2022 – 2023</h4>
+                        <ul>
+                            <li>Accurately handle cash, checks, credit/debit card transactions</li>
+                            <li>Ensuring that all credit card transactions are correctly processed and sent for settlement</li>
+                            <li>Generating financial and operational reports for management</li>
+                            <li>Handling cash and credit payments, adhering to the hotel’s cash handling policy and PCI compliance</li>
+                            <li>Assisting with inquiries or issues during the night shift.</li>
+                            <li>Managing and maintaining the reception area, ensuring cleanliness and organization.</li>
+                        </ul>
+                        <h2></h2>
+                    </li>
+                    <li>
+                        <h3>NIGHT AUDITOR</h3>
+                        <h4>Radisson Blu Hotel, CY</h4>
+                        <h4>2023 – 2024</h4>
+                        <ul>
+                            <li>Reconciling sales from different departments like restaurants, gift shops, and services to ensure they balance with the system.</li>
+                            <li>Operating a multi-line phone system, handling incoming calls, and directing them to the appropriate individuals or departments.</li>
+                            <li>Verifying cash transactions against system records, ensuring all payments are properly logged and balanced.</li>
+                            <li>Operate electronic cash registers and POS systems to process transactions and manage customer receipts.</li>
+                            <li>Balancing the cash drawer at the end of the shift and complete required paperwork for accounting purposes.</li>
+                        </ul>
+
+                        <h2></h2>
                     </li>
 
                 </ul>
             </div>
         `,
         languages: `
-        <header>
-            <h1>Our Services</h1>
-        </header>
         <div class="">
             <h2>FOREIGN LANGUAGES</h2>
-            <ol>
-                <li><pre style="font-weight: 200; font-family: Gill Sans, sans-serif;">Greek      🔳🔳🔳🔳⬜</pre></li>
-                <li><pre style="font-weight: 200; font-family: Gill Sans, sans-serif;">English    🔳🔳🔳🔳⬜</pre></li>
-                <li><pre style="font-weight: 200; font-family: Gill Sans, sans-serif;">Russian   🔳🔳🔳🔳🔳</pre></li>
-                <li><pre style="font-weight: 200; font-family: Gill Sans, sans-serif;">Ukrainian 🔳🔳🔳🔳🔳</pre></li>
-            </ol>
+            <div class="">
+                <img src="./images/greek.png" alt="flags" class="img-flg">
+                <img src="./images/eng.png" alt="flags" class="img-flg">
+                <img src="./images/ru.png" alt="flags" class="img-flg">
+                <img src="./images/ua.png" alt="flags" class="img-flg">
+            </div>
         </div>
         `,
         software_skills: `
-        <header>
-            <h1>Our Services</h1>
-            <p>Programming Languag
-            </p>
-        </header>
+        <div class="">
+            <h2>Software Skills</h2>
+            <dl>
+                <h4>1C Accounting Software</h4>
+                <h4>Adobe Photoshop</h4>
+                <h4>MS Office</h4>
+                <h4>Google Workspace</h4>
+                <h4>Operating Systems: Win, Linux + CMDS , BASH</h4>
+            </dl>
+        </div>
         `,
         special_skills: `
-            <header>
-                <h1>Contact Us</h1>
-                <p>Contact details and information.</p>
-            </header>
+
             <div class="">
                 <h2>SPECIAL SKILLS</h2>
-                <h4>Can drive a spaceship</h4>
-                <p>Ability to cast a spell without its pronouncing(like fireball and frostwall)
+                <h3>Programming Languages</h3>
+                <p>Basic knowledge of markup language HTML, CSS, SVG and Python.
                 </p>
+                <h3>Financial Analysis</h3>
+                <p>Ability to analyze financial data, including cash   flow, budgets, and financial statements
+                </p>
+                <h3>Email Management</h3>
+                <p>Experience with email software such as Outlook or Gmail for handling correspondence and scheduling appointments.
+                </p>
+                <h3>Technology Proficiency</h3>
+                <p>Effective use of various software tools and platforms to streamline processes, 
+                enhance productivity, and ensure accurate financial management
+                </p>
+                
             </div>
         `,
         education: `
-        <header>
-            <h1>Contact Us</h1>
-            <p>Contact details and information.</p>
-        </header>
         <div class="">
             <h2>EDUCATION</h2>
             <dl>
-                <h4>2010-2015</h4>
+                <h4>2012-2018</h4>
                 <dt>Donbass State Technical University, UA</dt>
+                <h5>Degree: Master</h5>
                 <dd>Specialisation:Economy of an enterprise</dd>
             </dl>
             <dl>
-                <h4>2016-2021</h4>
+                <h4>2014-2018</h4>
                 <dt>Belgorod State Technological University named after V.G.Shoukhov, RU</dt>
+                <h5>Degree: Specialist</h5>
                 <dd>Specialisation:Economics and Management</dd>
             </dl>
         </div>

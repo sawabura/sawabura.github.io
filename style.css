@@ -310,7 +310,10 @@ body {
 /* Container Styles */
 .container {
     display: none;
-    max-width: 800px;
+    max-width: 700px;
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding: 40px;
     background-color: white;
     border-radius: 22px;
@@ -529,6 +532,7 @@ a:hover {
     color: black;
     text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Для мобильных устройств */
 @media (max-width: 768px) {
