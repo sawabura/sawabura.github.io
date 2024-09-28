@@ -132,6 +132,7 @@ setTimeout(() => {
 // Toggle the sidebar visibility
 document.getElementById('nav-toggle-btn').addEventListener('click', function () {
     const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('show-sidebar');
 
     // Toggle sidebar open and close by adjusting width
     if (sidebar.style.width === '250px') {

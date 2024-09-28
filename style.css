@@ -64,10 +64,14 @@ body {
     background-color: transparent; /* Transparent background */
     overflow-x: hidden;
     overflow-y: hidden;
-    transition: 0.4s;
+    transition: top 0.4s ease;
     padding-top: 60px;
     padding-left: 10px;
     z-index: 1000;
+}
+
+.show-sidebar {
+    top: 5%;
 }
 
 /* Sidebar links */
@@ -151,16 +155,6 @@ body {
     /* animation: slideIn1 3s forwards ease-out; Animation that brings the buttons into view */
 }
 
-/* Slide-in animation
-@keyframes slideIn1 {
-    0% {
-        transform: translateX(-150%); Start position off-screen on the left
-    }
-    100% {
-        transform: translateX(calc(100vw - 120px)); Slide to the right upper corner
-    }
-} */
-
 /* Styling for individual buttons */
 .music-buttons button {
     font-size: 20px;
@@ -171,20 +165,6 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
-
-    
-
-/* @keyframes gradientBG {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-} */
 
 /* Rain effect */
 .rain {
@@ -275,31 +255,6 @@ body {
     animation: flash 0.2s ease-in-out infinite;
     z-index: 2;
 }
-
-/* @keyframes flash-border {
-    0% {
-        border-color: #a1a2a3; Original blue border
-    }
-    50% {
-        border-color: white; White border during the flash
-    }
-    100% {
-        border-color: #2a2a2a; Back to original color
-    }
-}
- */
-/* .container {
-    max-width: 900px;
-    background-color: white;
-    padding: 40px;
-    border-radius: 15px;
-    outline-width: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    z-index: 100;
-    animation: flash-border 2s infinite;
-}
- */
 
 @property --angle{
     syntax: "<angle>";
@@ -423,9 +378,6 @@ body {
         transform: translateX(-100px) translateY(0); /* Returns to start */
     }
 }
-
-
-
 
 header {
     text-align: center;
