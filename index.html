@@ -11,9 +11,9 @@
     <!-- Toggle button to show/hide the sidebar -->
     <div id="bike-container" class="bike-container" style="display: none;">
         <button id="nav-toggle-btn" class="nav-toggle-btn">🍔 Menu</button>
+        <!-- Mr. Delivery Guy:-) -->
         <img src="./images/bike.png" alt="Bike" class="bike-img">
     </div>
-
     <!-- Sidebar Navigation -->
     <div id="sidebar" class="sidebar">
         <a href="#" class="nav-link" data-target="home">Home</a>
@@ -24,36 +24,34 @@
         <a href="#" class="nav-link" data-target="special_skills">Special Skills</a>
         <a href="#" class="nav-link" data-target="education">Education</a>
     </div>
+    <!-- Tuggle on/off rain music -->
     <div class="music-buttons">
         <button onclick="document.getElementById('rain-sound').play()">Rain ON</button>
         <button onclick="document.getElementById('rain-sound').pause()">Rain OFF</button>
     </div>
-
-
+    <!-- Rain soudn effect -->
     <audio id="rain-sound" src="./sounds/rain-sound.mp3" preload="auto" autoplay loop></audio>
+    <!-- Moon with anim -->
     <div class="moon-container">
         <div class="moon"></div>
     </div>
-    
+    <!-- Typewriter effect -->
     <div class="typewriter">
-        <div class="">
-            <p>What kind of weather do you need next???</p>
-        </div>
+        <p>What kind of weather do you need next???</p>
     </div>
-    
+    <!-- Rain container -->
     <div class="rain"></div>
-
-
     <!-- Dynamic lightning strikes -->
     <div id="thunder-container">
         <svg id="lightning-svg" width="100%" height="100%">
 
         </svg>
     </div>
-
+    <!-- Screen Flash -->
     <div class="flash"></div>
+    <!-- Thunder sound effect -->
     <audio id="thunder-sound" preload="auto"></audio>
- 
+    <!-- Main container of the cv pop-ups -->
     <div class="container"></div>
     
     <script src="script.js"></script>

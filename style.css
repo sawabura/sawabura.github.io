@@ -26,6 +26,7 @@ body {
     top: 10%;
     z-index: 2;
 }
+
 .typewriter p {
     font-family: monospace;
     font-size: 4.5rem;
@@ -52,7 +53,6 @@ body {
     }
     
 }
-
 
 /* Sidebar styles */
 .sidebar {
@@ -143,29 +143,6 @@ body {
     }
 }
 
-/* Container for the music buttons */
-.music-buttons {
-    position: fixed;
-    top: 20px;
-    right: 1.5rem; /* Start off-screen to the left */
-    z-index: 1001; /* Ensures the button stays above the sidebar */
-    display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 10px; /* Space between the buttons */
-    /* animation: slideIn1 3s forwards ease-out; Animation that brings the buttons into view */
-}
-
-/* Styling for individual buttons */
-.music-buttons button {
-    font-size: 20px;
-    background: none;
-    border: 2px solid white;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
 /* Rain effect */
 .rain {
     position: absolute;
@@ -219,7 +196,6 @@ body {
         opacity: 0;
     }
 }
-
 
 .flash {
     position: absolute;
@@ -324,7 +300,6 @@ body {
     animation: popIn 0.6s forwards, rotateGradient 0.9s infinite linear; /* Trigger the enhanced pop-up effect */
 }
 
-
 /* Keyframes for smooth appearance */
 @keyframes popIn {
     0% {
@@ -340,7 +315,6 @@ body {
         opacity: 1;
     }
 }
-
 
 /* Container for the moon */
 .moon-container {
@@ -464,6 +438,29 @@ button {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background 0.4s ease, transform 0.8s ease;
+}
+
+/* Container for the music buttons */
+.music-buttons {
+    position: fixed;
+    top: 20px;
+    right: 1.5rem; /* Start off-screen to the left */
+    z-index: 1001; /* Ensures the button stays above the sidebar */
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Space between the buttons */
+    /* animation: slideIn1 3s forwards ease-out; Animation that brings the buttons into view */
+}
+
+/* Styling for individual buttons */
+.music-buttons button {
+    font-size: 20px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
