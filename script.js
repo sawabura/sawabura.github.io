@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </section>
             <footer>
-                <p>© 2024 Viktor's CV. All Rights Reserved.</p>
+                <p>© 2025 Viktor's CV. All Rights Reserved.</p>
             </footer>
         `,
         experience: `
@@ -177,26 +177,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h2>PROFESSIONAL EXPERIENCE </h2>
                 <ul>
                     <li>
-                        <h3>OFFICE MANAGER</h3>
-                        <h4>Alchevsk Metallurgical Complex, UA</h4>
+                        <h3>OFFICE & ADMIN. COORDINATOR</h3>
+                        <h4>ALCHEVSK METALLURGICAL COMPLEX, UA</h4>
                         <h4>2018 – 2019</h4>
-                        <ul>
-                            <li>Managing office operations inclusive of setting up office and facilities</li>
-                            <li>Managing the flow of paperwork to and from the department, ensuring accuracy, completion, and adherence to deadlines.</li>
-                            <li>Collaborating with management to assess office locations, plan requirements, and coordinate maintenance activities</li>
-                            <li>Working closely with vendors to maintain and ensure the operational efficiency of office facilities, equipment, and services.</li>
-                            <li>Providing comprehensive administrative support to management, including calendar management, meeting coordination, and documentation.</li>
-                            <li>Systematically organizing files and documents to streamline retrieval and storage processes.</li>
-                            <li>Assisting in the preparation and formatting of various documents, presentations, and reports.</li>
-                            <li>Coordinating with the Finance department to ensure the timely and accurate processing of invoice payments.</li>
-                        </ul>
-                        <h2></h2>
+                        <h2>Managed office logistics and provided high-level administrative support. Coordinated facility services, vendor relations, and helped streamline document flow and reporting for multiple departments.</h2>
 
                     </li>
 
                     <li>
                         <h3>FINANCE ASSISTANT</h3>
-                        Alchevsk Metallurgical Complex, UA
+                        <h4ALCHEVSK METALLURGICAL COMPLEX, UA<h4>
                         <h4>2019 – 2021</h4>
                         <ul>
                             <li>Daily invoice scanning, entry and processing</li>
@@ -368,4 +358,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         document.querySelector('.typewriter').style.display = 'none';
     }, 7000); // Hides the typewriter after 5 seconds
+
 });
