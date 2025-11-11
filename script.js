@@ -180,8 +180,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h3>OFFICE & ADMIN. COORDINATOR</h3>
                         <h4>ALCHEVSK METALLURGICAL COMPLEX, UA</h4>
                         <h4>2018 – 2019</h4>
-                        <h2>Managed office logistics and provided high-level administrative support. Coordinated facility services, vendor relations, and helped streamline document flow and reporting for multiple departments.</h2>
+                        <ul>
+                            <li>Managed office logistics and provided high-level administrative support. Coordinated facility services, vendor relations, and helped streamline document flow and reporting for multiple departments.</li>
 
+                        </ul>
+                        <h2></h2>
                     </li>
 
                     <li>
