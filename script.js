@@ -192,18 +192,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h4ALCHEVSK METALLURGICAL COMPLEX, UA<h4>
                         <h4>2019 – 2021</h4>
                         <ul>
-                            <li>Daily invoice scanning, entry and processing</li>
-                            <li>Matching, batching and coding invoices</li>
-                            <li>Raising, matching and recording purchase orders</li>
-                            <li>Maintaining new and existing supplier/staff accounts</li>
-                            <li>Processing staff expenses in line with company policy</li>
-                            <li>Preparing weekly payment runs</li>
-                            <li>Follow up on supplier invoice/staff expense queries accordingly</li>
-                            <li>Ensuring invoices are paid in a timely manner, based on due dates and payment terms</li>
-                            <li>Preparing manual UA/RU payments and liaising with treasury assistant</li>
-                            <li>Reconciliation of supplier statements and accounts</li>
-                            <li>Posting payments on a daily basis</li>
-                            <li>Perform month end AP reconciliations to the Trial Balance</li>
+                            <li>Worked in finance operations handling invoice processing, supplier payments, and expense reporting. Supported monthly closing procedures and maintained accurate financial documentation using 1C and Excel.</li>
+
                         </ul>
                         <h2></h2>
                     </li>
@@ -211,41 +201,30 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>
                         <h3>JUNIOR ANALYST</h3>
                         <h4>FOREX. PL, CY</h4>
-                        <h4>2021 – 2022</h4>
+                        <h4>JAN 2021 – DEC 2022</h4>
                         <ul>
-                            <li>Assisting in monitoring forex trades and pricing for institutional and retail clients, ensuring accuracy and compliance with company guidelines.</li>
-                            <li>Generating complex reports for senior management, focusing on liquidity provider performance, client trade behavior, and pricing accuracy.</li>
-                            <li>Supporting senior dealers by running daily reports on market liquidity, trade execution, and pricing discrepancies.</li>
-                            <li>Utilizing Excel to generate pivot tables, run data analysis, and prepare reports on market performance.</li>
-                            <li>Gaining experience with the MT4 platform, resolving technical issues and helping optimize trading conditions for the client base.</li>
-                            <li>Collaborating with senior dealers and the investment team to provide regular updates on major currency trends and market conditions.</li>
+                            <li>Assisted senior analysts with data-driven reporting on market trends and trading activity. Supported technical operations on MT4 and ensured accurate liquidity tracking and trade execution analysis.
+Supported senior analysts by preparing liquidity, pricing, and trade reports.</li>    
                         </ul>
                         <h2></h2>
                     </li>
                     <li>
-                        <h3>NIGHT AUDITOR</h3>
-                        <h4>Lordos Beach Hotel & Spa, CY</h4>
-                        <h4>2022 – 2023</h4>
+                        <h3>CASH RECONCILIATION ASSISTANT</h3>
+                        <h4>RADISSON GROUP, CY</h4>
+                        <h4>JAN 2023 - DEC 2023</h4>
                         <ul>
-                            <li>Accurately handle cash, checks, credit/debit card transactions</li>
-                            <li>Ensuring that all credit card transactions are correctly processed and sent for settlement</li>
-                            <li>Generating financial and operational reports for management</li>
-                            <li>Handling cash and credit payments, adhering to the hotel’s cash handling policy and PCI compliance</li>
-                            <li>Assisting with inquiries or issues during the night shift.</li>
-                            <li>Managing and maintaining the reception area, ensuring cleanliness and organization.</li>
+                            <li>Handled overnight audits, reconciliations, and financial reports across hotel departments. Ensured accuracy of transactions, balanced cash systems, and supported administrative night functions. Conducted night audits by reconciling daily sales across departments (restaurant, retail, and service)</li>
+
                         </ul>
                         <h2></h2>
                     </li>
                     <li>
-                        <h3>NIGHT AUDITOR</h3>
-                        <h4>Radisson Blu Hotel, CY</h4>
-                        <h4>2023 – 2024</h4>
+                        <h3>OPERATIONS & FRONT OFFICE SUPERVISOR</h3>
+                        <h4>MERCURE HOTELS, CY</h4>
+                        <h4>2024 – JUN 2025</h4>
                         <ul>
-                            <li>Reconciling sales from different departments like restaurants, gift shops, and services to ensure they balance with the system.</li>
-                            <li>Operating a multi-line phone system, handling incoming calls, and directing them to the appropriate individuals or departments.</li>
-                            <li>Verifying cash transactions against system records, ensuring all payments are properly logged and balanced.</li>
-                            <li>Operate electronic cash registers and POS systems to process transactions and manage customer receipts.</li>
-                            <li>Balancing the cash drawer at the end of the shift and complete required paperwork for accounting purposes.</li>
+                            <li>Led the front office team while overseeing scheduling, financial reporting, and customer service processes. Focused on operational efficiency, team coordination, and guest satisfaction tracking.</li>
+
                         </ul>
 
                         <h2></h2>
@@ -281,8 +260,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             <div class="">
                 <h2>SPECIAL SKILLS</h2>
-                <h3>Programming Languages</h3>
-                <p>Basic knowledge of markup language HTML, CSS, SVG and Python.
+                <h3>IT field</h3>
+                <p>Knowledge of markup language HTML, CSS, SVG and Python(panday,numpy libs).
+                </p>
+                <p>Basic knowdledge of Javascript.
+                </p>
+                 <p>Knowledge of Power BI, Tableau ane Excel(creating dushboards etc)
                 </p>
                 <h3>Financial Analysis</h3>
                 <p>Ability to analyze financial data, including cash   flow, budgets, and financial statements
@@ -363,3 +346,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 7000); // Hides the typewriter after 5 seconds
 
 });
+
