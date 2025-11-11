@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <section>
                 <h2>Download & Contact</h2>
                 <div class="button-container">
-                    <button onclick="window.location.href='https://drive.google.com/file/d/19I6cnyKGWquV7ztHIPw4PErLabVCFkPc/view?usp=drive_link'">Download CV</button>
+                    <button onclick="window.location.href='https://drive.google.com/file/d/1a67qWvJ0LhY4NaoxPUjPmI4h4lXm7fC-/view?usp=sharing'">Download CV</button>
                     <button onclick="window.location.href='mailto:victormacgrey@gmail.com'">Contact Me</button>
                 </div>
             </section>
@@ -290,7 +290,7 @@ Supported senior analysts by preparing liquidity, pricing, and trade reports.</l
                 <dd>Specialisation:Economy of an enterprise</dd>
             </dl>
             <dl>
-                <h4>2014-2018</h4>
+                <h4>2013-2017</h4>
                 <dt>Belgorod State Technological University named after V.G.Shoukhov, RU</dt>
                 <h5>Degree: Specialist</h5>
                 <dd>Specialisation:Economics and Management</dd>
@@ -346,4 +346,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 7000); // Hides the typewriter after 5 seconds
 
 });
+
 
