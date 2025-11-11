@@ -162,6 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h2>Download & Contact</h2>
                 <div class="button-container">
                     <button onclick="window.location.href='https://drive.google.com/file/d/1a67qWvJ0LhY4NaoxPUjPmI4h4lXm7fC-/view?usp=sharing'">Download CV</button>
+                    <button onclick="window.location.href='https://www.linkedin.com/in/viktorpyro/'">LinkedIn</button>
                     <button onclick="window.location.href='mailto:victormacgrey@gmail.com'">Contact Me</button>
                 </div>
             </section>
@@ -346,5 +347,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 7000); // Hides the typewriter after 5 seconds
 
 });
+
 
 
