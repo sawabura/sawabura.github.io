@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <section>
                 <h2>Download & Contact</h2>
                 <div class="button-container">
-                    <button onclick="window.location.href='https://drive.google.com/file/d/1a67qWvJ0LhY4NaoxPUjPmI4h4lXm7fC-/view?usp=sharing'">Download CV</button>
+                    <button onclick="window.location.href=''">Download CV</button>
                     <button onclick="window.location.href='https://www.linkedin.com/in/viktorpyro/'">LinkedIn</button>
                     <button onclick="window.location.href='mailto:victormacgrey@gmail.com'">Contact Me</button>
                 </div>
@@ -176,62 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </header>
             <div class="">
                 <h2>PROFESSIONAL EXPERIENCE </h2>
-                <ul>
-                    <li>
-                        <h3>OFFICE & ADMIN. COORDINATOR</h3>
-                        <h4>ALCHEVSK METALLURGICAL COMPLEX, UA</h4>
-                        <h4>2018 – 2019</h4>
-                        <ul>
-                            <li>Managed office logistics and provided high-level administrative support. Coordinated facility services, vendor relations, and helped streamline document flow and reporting for multiple departments.</li>
-
-                        </ul>
-                        <h2></h2>
-                    </li>
-
-                    <li>
-                        <h3>FINANCE ASSISTANT</h3>
-                        <h4ALCHEVSK METALLURGICAL COMPLEX, UA<h4>
-                        <h4>2019 – 2021</h4>
-                        <ul>
-                            <li>Worked in finance operations handling invoice processing, supplier payments, and expense reporting. Supported monthly closing procedures and maintained accurate financial documentation using 1C and Excel.</li>
-
-                        </ul>
-                        <h2></h2>
-                    </li>
-
-                    <li>
-                        <h3>JUNIOR ANALYST</h3>
-                        <h4>FOREX. PL, CY</h4>
-                        <h4>JAN 2021 – DEC 2022</h4>
-                        <ul>
-                            <li>Assisted senior analysts with data-driven reporting on market trends and trading activity. Supported technical operations on MT4 and ensured accurate liquidity tracking and trade execution analysis.
-Supported senior analysts by preparing liquidity, pricing, and trade reports.</li>    
-                        </ul>
-                        <h2></h2>
-                    </li>
-                    <li>
-                        <h3>CASH RECONCILIATION ASSISTANT</h3>
-                        <h4>RADISSON GROUP, CY</h4>
-                        <h4>JAN 2023 - DEC 2023</h4>
-                        <ul>
-                            <li>Handled overnight audits, reconciliations, and financial reports across hotel departments. Ensured accuracy of transactions, balanced cash systems, and supported administrative night functions. Conducted night audits by reconciling daily sales across departments (restaurant, retail, and service)</li>
-
-                        </ul>
-                        <h2></h2>
-                    </li>
-                    <li>
-                        <h3>OPERATIONS & FRONT OFFICE SUPERVISOR</h3>
-                        <h4>MERCURE HOTELS, CY</h4>
-                        <h4>2024 – JUN 2025</h4>
-                        <ul>
-                            <li>Led the front office team while overseeing scheduling, financial reporting, and customer service processes. Focused on operational efficiency, team coordination, and guest satisfaction tracking.</li>
-
-                        </ul>
-
-                        <h2></h2>
-                    </li>
-
-                </ul>
+            
             </div>
         `,
         languages: `
